@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/rs-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container justify-content-center">
+    
+            <!-- Burger Menu Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                        <!-- Logo -->
+                <a class="navbar-brand" href="/">Rommel Sevilla</a>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <!-- Dropdown Item -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" 
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                    <li><a class="dropdown-item" href="./social-media.html">Social Media Templates</a></li>
+                    <li><a class="dropdown-item" href="./videos.html">Videos</a></li>
+                    <li><a class="dropdown-item" href="https://rommelsevilla.pinoyseo.ph/">SEO</a></li>
+                    <li><a class="dropdown-item" href="./games_theme.html">Game/Theme Development</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+
+<!--About Section-->
+<div class="container py-5">
+    <div class="row align-items-start">
+      <!-- Left Column: Image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center">
+        <img src="./images/about.jpg" alt="About Me" class="img-fluid rounded" style="width: 70%; height: 60vh; object-fit: cover;">
+    </div>
+
+      <!-- Right Column: About Me Text -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="text-center mb-3">About Me</h2>
+        <p>
+            My passion is to become a software developer. I have experience working as a QA engineer, which has provided me with valuable insights into the software development process and the importance of ensuring high-quality products. During my time as a QA engineer, I developed strong analytical skills and a meticulous attention to detail, 
+            which I apply to every project I undertake. To strengthen my skills and broaden my knowledge, I joined the Village88 web development bootcamp, where I immersed myself in various programming languages and frameworks, learning best practices for building robust applications. This experience not only honed my technical abilities but also ignited my enthusiasm for problem-solving and creating innovative solutions. 
+          <br><br>
+          In addition to my professional pursuits, I have a range of hobbies that I enjoy. I occasionally play basketball with my acquaintances, which allows me to stay active and connect with friends. However, I spend most of my leisure time playing Valorant, where I can engage in competitive gameplay and work collaboratively with teammates to achieve our objectives. I also have a deep appreciation for chess, a game that challenges my strategic thinking and decision-making skills. Both hobbies contribute to my personal development, helping me improve my focus and mental agility.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Hobbies-->
+
+  <div class="container py-5">
+    <h2 class="text-center mb-3">My Hobbies</h2>
+    <div class="accordion" id="hobbiesAccordion">
+      <!-- Accordion Item 1: Chess -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingChess">
+          <button
+            class="accordion-button h5"
+            type="button"
+            data-bs-target="#collapseChess"
+            data-bs-toggle="collapse"
+            aria-expanded="true"
+            aria-controls="collapseChess"
+            style="background-color: #28afb0; color: white; cursor: pointer; border: none;"
+          >
+            <span class="accordion-item-icon">♟️</span> Chess
+          </button>
+        </h2>
+        <div
+          id="collapseChess"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingChess"
+          data-bs-parent="#hobbiesAccordion"
+        >
+          <div class="accordion-body">
+            I enjoy playing chess as it challenges my strategic thinking and decision-making skills. Each game presents a new puzzle, requiring careful planning and foresight. It's a great way to enhance my focus and engage in a mental battle against opponents.
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Item 2: Valorant -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingValorant">
+          <button
+            class="accordion-button h5"
+            type="button"
+            data-bs-target="#collapseValorant"
+            data-bs-toggle="collapse"
+            aria-expanded="false"
+            aria-controls="collapseValorant"
+            style="background-color: #28afb0; color: white; cursor: pointer; border: none;"
+          >
+            <span class="accordion-item-icon">🎮</span> Valorant
+          </button>
+        </h2>
+        <div
+          id="collapseValorant"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingValorant"
+          data-bs-parent="#hobbiesAccordion"
+        >
+          <div class="accordion-body">
+            Valorant is one of my favorite games, as it combines tactical gameplay with teamwork. It requires quick reflexes and strategic planning, making every match a thrilling experience. Playing with friends enhances the fun and helps build strong teamwork skills.
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Item 3: Basketball -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingBasketball">
+          <button
+            class="accordion-button h5"
+            type="button"
+            data-bs-target="#collapseBasketball"
+            data-bs-toggle="collapse"
+            aria-expanded="false"
+            aria-controls="collapseBasketball"
+            style="background-color: #28afb0; color: white; cursor: pointer; border: none;"
+          >
+            <span class="accordion-item-icon">🏀</span> Basketball
+          </button>
+        </h2>
+        <div
+          id="collapseBasketball"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingBasketball"
+          data-bs-parent="#hobbiesAccordion"
+        >
+          <div class="accordion-body">
+            I occasionally play basketball with my acquaintances. It’s a great way to stay active and bond with friends. The sport helps me improve my physical fitness while enjoying the thrill of competition and teamwork.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Albums-->
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Albums</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- Chess Album -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="./images/albums/albums - chess.jpg" alt="Chess" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Chess</h5>
+                    <p class="card-text text-center">
+                       Chess Tournament
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Valorant Album -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="./images/albums/albums - valorant.jpg" alt="Valorant" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Valorant</h5>
+                    <p class="card-text text-center">
+                        Valorant MVP
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Basketball Album -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="./images/albums/albums - basketbal.jpg" alt="Basketball" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Basketball</h5>
+                    <p class="card-text text-center">
+                        Street Basketball
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Quick Links-->
+
+<section class="bg-white text-dark py-5"> 
+    <div class="container text-center"> 
+        <h2 class="mb-4">Quick Links</h2> 
+        <div class="row justify-content-center"> 
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Articles</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://getbootstrap.com/" class="text-dark text-decoration-none">Bootstrap</a></li> 
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="text-dark text-decoration-none">JavaScript</a></li> 
+                    <li><a href="https://laravel.com/docs/11.x/readme" class="text-dark text-decoration-none">Laravel</a></li> 
+                    <li><a href="https://nodejs.org/api/all.html" class="text-dark text-decoration-none">NodeJS</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Services</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://github.com/rjspc181997" class="text-dark text-decoration-none">Web Development</a></li> 
+                    <li><a href="https://rommelsevilla.pinoyseo.ph/" class="text-dark text-decoration-none">SEO & Marketing</a></li> 
+                    <li><a href="./graphicdesign.html" class="text-dark text-decoration-none">Graphic Design</a></li> 
+                    <li><a href="./games_theme.html" class="text-dark text-decoration-none">Games / Theme Design</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Support</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://www.w3schools.com/" class="text-dark text-decoration-none">W3 School</a></li> 
+                    <li><a href="https://roadmap.sh/" class="text-dark text-decoration-none">Developer Roadmap</a></li> 
+                    <li><a href="./contact.html" class="text-dark text-decoration-none">Contact Us</a></li> 
+                    <li><a href="./privacy-policy.html" class="text-dark text-decoration-none">Privacy Policy</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Follow Us</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://www.facebook.com/rommeljohn.sevilla" class="text-dark text-decoration-none">Facebook</a></li> 
+                    <li><a href="https://www.instagram.com/airmaxx_23517/" class="text-dark text-decoration-none">Instagram</a></li> 
+                    <li><a href="https://www.linkedin.com/in/rommel-qa-seo/" class="text-dark text-decoration-none">LinkedIn</a></li> 
+                </ul> 
+            </div>
+
+        </div> 
+    </div> 
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Rommel Sevilla Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

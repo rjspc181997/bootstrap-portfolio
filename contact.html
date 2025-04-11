@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/rs-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--Navigation-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container justify-content-center">
+    
+            <!-- Burger Menu Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                        <!-- Logo -->
+                <a class="navbar-brand" href="/">Rommel Sevilla</a>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <!-- Dropdown Item -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" 
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                    <li><a class="dropdown-item" href="./social-media.html">Social Media Templates</a></li>
+                    <li><a class="dropdown-item" href="./videos.html">Videos</a></li>
+                    <li><a class="dropdown-item" href="https://rommelsevilla.pinoyseo.ph/">SEO</a></li>
+                    <li><a class="dropdown-item" href="./games_theme.html">Game/Theme Development</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+ <!-- Form & Map Side-by-Side -->
+ <div class="container py-5">
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-4">Contact Me</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message..." required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-success">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Google Map -->
+      <div class="col-md-6">
+        <h2 class="mb-4">My Location</h2>
+        <div class="ratio ratio-4x3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62863.75205982811!2d124.2101734710606!3d8.236608568952956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32556de682e02c6f%3A0x3c9b60929e5826f8!2sIligan%20City%2C%20Lanao%20del%20Norte%2C%20Philippines!5e0!3m2!1sen!2sph!4v1712312312312"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--Quick Links-->
+
+<section class="bg-white text-dark py-5"> 
+    <div class="container text-center"> 
+        <h2 class="mb-4">Quick Links</h2> 
+        <div class="row justify-content-center"> 
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Articles</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://getbootstrap.com/" class="text-dark text-decoration-none">Bootstrap</a></li> 
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="text-dark text-decoration-none">JavaScript</a></li> 
+                    <li><a href="https://laravel.com/docs/11.x/readme" class="text-dark text-decoration-none">Laravel</a></li> 
+                    <li><a href="https://nodejs.org/api/all.html" class="text-dark text-decoration-none">NodeJS</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Services</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://github.com/rjspc181997" class="text-dark text-decoration-none">Web Development</a></li> 
+                    <li><a href="https://rommelsevilla.pinoyseo.ph/" class="text-dark text-decoration-none">SEO & Marketing</a></li> 
+                    <li><a href="./graphicdesign.html" class="text-dark text-decoration-none">Graphic Design</a></li> 
+                    <li><a href="./games_theme.html" class="text-dark text-decoration-none">Games / Theme Design</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Support</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://www.w3schools.com/" class="text-dark text-decoration-none">W3 School</a></li> 
+                    <li><a href="https://roadmap.sh/" class="text-dark text-decoration-none">Developer Roadmap</a></li> 
+                    <li><a href="./contact.html" class="text-dark text-decoration-none">Contact Us</a></li> 
+                    <li><a href="./privacy-policy.html" class="text-dark text-decoration-none">Privacy Policy</a></li> 
+                </ul> 
+            </div>
+
+            <div class="col-md-3 mb-4"> 
+                <h5 class="text-uppercase">Follow Us</h5> 
+                <ul class="list-unstyled"> 
+                    <li><a href="https://www.facebook.com/rommeljohn.sevilla" class="text-dark text-decoration-none">Facebook</a></li> 
+                    <li><a href="https://www.instagram.com/airmaxx_23517/" class="text-dark text-decoration-none">Instagram</a></li> 
+                    <li><a href="https://www.linkedin.com/in/rommel-qa-seo/" class="text-dark text-decoration-none">LinkedIn</a></li> 
+                </ul> 
+            </div>
+
+        </div> 
+    </div> 
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Rommel Sevilla Portfolio. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,316 @@
+
+/**----------------------------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**Navigation**/
+.navigation {
+    background-color: #28afb0; /* Full-width background color */
+    color: white; /* White text */
+    width: 100%; /* Ensures full width */
+    padding: 5px 0; /* Reduce padding */
+}
+
+/* Make sure all links inside the navbar are white */
+.navigation a {
+    color: white !important;
+}
+
+/* Style dropdown menu */
+.navigation .dropdown-menu {
+    background-color: #19647e !important; /* New dropdown background color */
+    border: none; /* Remove default border */
+}
+
+/* Change dropdown menu item text color */
+.navigation .dropdown-item {
+    color: white !important;
+}
+
+/* Add hover effect for dropdown items */
+.navigation .dropdown-item:hover {
+    background-color: #14506b !important; /* Slightly darker shade for hover */
+}
+
+/* Change navbar links color */
+.navigation .nav-link {
+    color: white !important;
+    padding: 5px 10px; /* Adjust spacing */
+}
+
+/* Adjust navbar toggler icon color */
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon white */
+}
+
+/* Center the logo and navigation items */
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-nav .nav-item {
+        width: 100%;
+    }
+    .navbar-nav .navbar-brand {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .dropdown-item{
+        text-align: center;
+    }
+}
+
+/**----------------------------------------------------------------------*/
+/** Hero Section - Home banner **/
+
+/* Style the carousel buttons (next & previous) */
+.carousel-control-prev, 
+.carousel-control-next {
+    background-color: #fecf49 !important; /* Match button color */
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1 !important;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to exact center */
+}
+
+/* Style the carousel button icons */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(1); /* Make the arrow icons white */
+}
+
+/* Style the carousel indicators (slide buttons) */
+.carousel-indicators button {
+    background-color: #19647e !important; /* Inactive indicators */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    opacity: 1;
+}
+
+/* Highlight the active indicator */
+.carousel-indicators .active {
+    background-color: #fecf49 !important; /* Highlight active indicator */
+}
+
+/* Style the carousel text (h5 and p) */
+.carousel-caption h5, .carousel-caption h2 {
+    color: #28afb0 !important;
+    font-weight: bold;
+}
+
+.carousel-caption p, .carousel-caption ul li{
+    color: #37392E !important;
+    font-size: 1.2rem;
+}
+
+
+
+/**----------------------------------------------------------------------*/
+/** 1st Slide**/
+
+/* Center the caption container */
+/* Ensure the carousel items are positioned relative for proper caption placement */
+.carousel-item {
+    position: relative;
+  }
+  
+  /* General carousel caption styling */
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 20px; /* Some horizontal padding for smaller screens */
+  }
+  
+  /* Desktop - Default Profile Image */
+  .profile-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 3px solid #19647e;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  /* Maintain circular shape on mobile */
+  @media (max-width: 768px) {
+    .profile-img {
+        height: 40vh; /* Fix: Remove height: 70vh; */
+        aspect-ratio: 1 / 1; /* Keeps width and height equal */
+    }
+}
+  
+  /* Desktop carousel image adjustments */
+  .carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+/**2nd Slide**/
+
+/* Remove bullet points and adjust spacing */
+.carousel-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Make text always visible */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 20px; /* Padding for small screens */
+}
+
+/* Increase font size for hero carousel title */
+.carousel-caption h2 {
+    font-size: 3rem; /* Bigger for emphasis */
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+/* Remove bullet points */
+.carousel-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Fix Second Slide disappearing text */
+.Second-Slide {
+    display: block !important; /* Always show text on all screen sizes */
+}
+
+
+/* Ensure social links are displayed properly */
+.social-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28afb0;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Style the social list */
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Style the icons */
+.social-list li i {
+    margin-right: 8px;
+    color: #19647e;
+}
+
+/* Adjust text alignment on smaller screens */
+@media (max-width: 768px) {
+    .social-heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .social-list {
+        text-align: center;
+    }
+}
+
+
+
+/**third-slide**/
+
+/* Custom icon colors */
+.dark-icon {
+    color: #212529 !important; /* Dark color for GitHub */
+}
+
+.gray-icon {
+    color: #6c757d !important; /* Gray color for Email */
+}
+
+/* Increase icon size */
+.large-icon {
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+/**Progress Bar*/
+
+.progress-bar {
+    width: 0; /* Start with zero width */
+    transition: width 1.5s ease-in-out;
+}
+
+
+/**Modal Images**/
+
+      /* Set fixed height for images to ensure uniformity */
+      .img-thumbnail {
+        width: 100%; /* Set full width */
+        height: 330px; /* Set fixed height */
+       
+        
+    }
+    
+    .modal-lg {
+        max-width: 50%; /* Set max width for the modal */
+    }
+
+    @media (max-width: 576px) {
+        .modal-lg {
+            max-width: 95%; /* Increase modal width on extra small devices */
+        }
+    }
+
+
+    /**Website Banner**/
+
+       /* Set fixed height for images in banners */
+       .banner-img {
+        width: 100%; /* Set full width */
+        height: 300px; /* Set fixed height for uniformity */
+         
+    }
+
+        /* Increase modal size on mobile devices */
+        @media (max-width: 576px) {
+            .modal-lg {
+                max-width: 95%; /* Increase modal width on extra small devices */
+            }
+            .banner-img {
+                height: 200px; /* Reduce height for smaller screens */
+            }
+
+        }
